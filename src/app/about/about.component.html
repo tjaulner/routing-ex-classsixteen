@@ -1,15 +1,24 @@
-<div class="jumbotron">
-
+  <div class="jumbotron">
+    <div class="container">
+    <p>Something about us? Why the need to know such things? Alright stalker, click below to see more.</p>
+    <div class="row">
+      <div class="col-2">
         <button
           class="btn btn-secondary"
           (click)="onClick('bob')"
           >About Bob</button>
+      </div>
+      <div class="col-2">
         <button
           class="btn btn-secondary"
           (click)="onClick('susan')"
           >About Susan</button>
-
+      </div>
+  </div>
+  </div>
 </div>
+
+
 <router-outlet></router-outlet>
 
 

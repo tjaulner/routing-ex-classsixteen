@@ -9,6 +9,10 @@ import { ContactComponent } from './contact/contact.component';
 import { BobComponent } from './about/bob/bob.component';
 import { SusanComponent } from './about/susan/susan.component';
 import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
+import { ProductsComponent } from './products/products.component';
+import { ThingamathingsComponent } from './products/thingamathings/thingamathings.component';
+import { UnderwaterbasketweavingComponent } from './products/underwaterbasketweaving/underwaterbasketweaving.component';
+import { WhatsitfucksComponent } from './products/whatsitfucks/whatsitfucks.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +22,11 @@ import { PagenotfoundComponent } from './pagenotfound/pagenotfound.component';
     ContactComponent,
     BobComponent,
     SusanComponent,
-    PagenotfoundComponent
+    PagenotfoundComponent,
+    ProductsComponent,
+    ThingamathingsComponent,
+    UnderwaterbasketweavingComponent,
+    WhatsitfucksComponent
   ],
   imports: [
     BrowserModule,

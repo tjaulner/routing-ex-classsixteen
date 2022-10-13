@@ -12,12 +12,22 @@
   <li class="nav-item">
     <a
       class="nav-link"
-      id="profile-tab"
+      id="about-tab"
       data-toggle="tab"
       role="tab"
       aria-controls="about"
       routerLink="about" routerLinkActive="active"
       >About</a>
+  </li>
+  <li class="nav-item">
+    <a
+      class="nav-link"
+      id="products-tab"
+      data-toggle="tab"
+      role="tab"
+      aria-controls="products"
+      routerLink="products" routerLinkActive="active"
+      >Products</a>
   </li>
   <li class="nav-item">
     <a
@@ -30,11 +40,7 @@
       >Contact</a>
   </li>
 </ul>
-<div class="tab-content" id="myTabContent">
-  <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab"></div>
-  <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab"></div>
-  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab"></div>
-</div>
+
 
 
 <router-outlet></router-outlet>
